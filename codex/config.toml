@@ -1,0 +1,23 @@
+service_tier = "default"
+model_reasoning_effort = "xhigh"
+model = "gpt-6.1-sol"
+model_verbosity = "low"
+model_reasoning_summary = "none"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[desktop]
+browser-show-full-url = true
+worktree-auto-cleanup-enabled = false
+pet-visibility = "on-demand"
+usePointerCursors = true
+reduced-motion-preference = "on"
+followUpQueueMode = "steer"
+projectlessWorkspaceRoot = '{{WORK_ROOT}}\Default'
+conversationDetailMode = "STEPS_COMMANDS"
+
+[projects.'{{WORK_ROOT}}']
+trust_level = "trusted"
+
+[shell_environment_policy]
+ignore_default_excludes = false   # drop *KEY*/*SECRET*/*TOKEN* variables from subprocess environments
