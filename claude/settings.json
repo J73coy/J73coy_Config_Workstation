@@ -28,9 +28,9 @@
     "security-guidance@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
     "feature-dev@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": false,
+    "superpowers@claude-plugins-official": true,
     "unreal-engine-skills-for-claude-code@claude-plugins-official": true,
-    "modern-web-guidance@claude-plugins-official": false,
+    "modern-web-guidance@claude-plugins-official": true,
     "github@claude-plugins-official": false
   },
   "extraKnownMarketplaces": {
